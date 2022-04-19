@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+}
+#sup-tm {
+    position: relative;
+    top: -20px;
+    font-size: 14px;
+}
+.nav-link {
+    font-size: 20px;
+}
+.nav-item:hover {
+    transition: .3s all;
+    transform-origin: top;
+    transform: scale(1.1);
+}
+#cart {
+    cursor: pointer;
+}
+#title-one {
+    color: white;
+    font-size: 8rem;
+    font-weight: bold;
+}
+@media screen and (max-width: 500px) {
+    #title-one {
+        font-size: 4rem;
+    }
+}
+@media (max-width: 800px) {
+    #title-one {
+        font-size: 5rem;
+    }
+}
+#title-two {
+    color: #ffffff;
+    font-size: 5rem;
+    font-weight: bold;
+}
+@media screen and (max-width: 500px) {
+    #title-two {
+        font-size: 1rem;
+    }
+    #btn-shop-now {
+        display: none;
+    }
+}
+@media (max-width: 800px) {
+    #title-two {
+        font-size: 4rem;
+    }
+    #btn-shop-now {
+        display: none;
+    }
+}
+@media (max-width: 1100px) {
+    #btn-shop-now {
+        display: none;
+    }
+}
+#img-blog-one {
+    border-top-left-radius: 100px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 100px;
+}
+#title-three {
+    color: #ffffff;
+    font-size: 5.5rem;
+    font-stretch: expanded;
+    font-weight: bold;
+}
+@media screen and (max-width: 500px) {
+    #title-three {
+        font-size: 2rem;
+    }
+}
+@media (max-width: 800px) {
+    #title-three {
+        font-size: 4rem;
+    }
+}
+#testimonials {
+    background-image: url(/Unbun/assets/testimonials/pexels-katerina-holmes-5907901.jpg);
+    background-size: cover;
+    height: max-content;
+    padding: 20px 0;
+}
+#card-container {
+    padding: 20px 30px;
+    background-color: rgba(255, 255, 255, .85);
+    border-top-left-radius: 60px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 60px;
+    width: 20rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#testimonials img {
+    border-radius: 30px;
+}
+#email > input::placeholder {
+    opacity: .5; 
+}
+#circle {
+    position: fixed;
+    border-radius: 50%;
+    z-index: 5;
+    height: 20px;
+    transition: .05s;
+    width: 20px;
+    background-color: black;
+    margin: 20px;
+}
