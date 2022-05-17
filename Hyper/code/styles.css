@@ -1,0 +1,411 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+body {
+    overflow-x: hidden;
+}
+.navbar {
+    background-color: white;
+}
+#btn-bag-fill,
+#btn-plus {
+    border-radius: 50%;
+}
+#btn-bag-fill:hover {
+    transition: .2s all;
+    background-color: crimson;
+    color: white;
+}
+#btn-plus:hover {
+    transition: .2s all;
+    background-color: black;
+    color: white;
+}
+#cart-modal {
+    width: 100vw;
+    height: 90vh;
+    background-color: white;
+    display: none;
+}
+#btn-cross-cart {
+    border-radius: 30%;
+}
+#btn-cross-cart:hover {
+    transition: .2s all;
+    background-color: crimson;
+    color: white;
+}
+#cart-header {
+    border-bottom: 2px solid black;
+}
+#btn-cart-packages {
+    border-bottom: 1px solid black;
+    border-radius: 0%;
+}
+#btn-cart-packages:hover {
+    transition: .5s all;
+    border: 1px solid black;
+    border-top: 5px solid black;
+    border-left: 5px solid black;
+}
+#cart-main {
+    height: 70vh;
+}
+#menu-modal {
+    background-color: white;
+    width: 100vw;
+    height: 90vh;
+    display: none;
+    border-bottom: 8px dotted gray;
+    margin-top: 65px;
+}
+#menu-links ul li a {
+    color: black;
+    font-weight: bold;
+    font-size: 70px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+#menu-links ul li a:hover {
+    transition: .2s all;
+    background-color: black;
+    color: mediumslateblue;
+}
+#btn-linkedin,
+#btn-instagram,
+#btn-facebook,
+#btn-twitter,
+#btn-dribbble {
+    border-radius: 50%;
+}
+#btn-linkedin:hover {
+    transition: .2s all;
+    background-color: #0077B5;
+    color: white;
+}
+#btn-instagram:hover {
+    transition: .2s all;
+    background: linear-gradient(45deg, #8A3AB9, #E95950);
+    color: white;
+}
+#btn-facebook:hover {
+    transition: .2s all;
+    background: #4267B2;
+    color: white;
+}
+#btn-twitter:hover {
+    transition: .2s all;
+    background-color: #00ACEE;
+    color: white;
+}
+#btn-dribbble:hover {
+    transition: .2s all;
+    background-color: #EA4C89;
+    color: white;
+}
+#hero {
+    margin-top: 60px;
+}
+#hero-title {
+    font-size: 140px;
+    padding-left: 100px;
+    font-weight: bolder;
+    color: black;
+}
+#hero-para-bot {
+    padding-top: 90px;
+}
+#btn-say-hello {
+    margin: 10px 15px;
+}
+#btn-say-hello:hover {
+    transition: .2s all;
+    transform-origin: top;
+    transform: translateY(-5px);
+}
+#work {
+    margin-top: 50px;
+}
+#btn-arrow-down {
+    animation: arrowdown 2s linear infinite;
+}
+#btn-arrow-down:hover {
+    background-color: black;
+    color: white;
+}
+#our-partners i {
+    opacity: .9;
+    font-size: 50px;
+}
+#our-partners a {
+    margin: 0 50px;
+}
+#btn-view-our-work:hover {
+    transition: .2s all;
+    transform: translateY(-5px);
+}
+#sec-1-left {
+    background-color: black;
+}
+#para-sect-1 {
+    font-size: 1.4rem;
+    padding: 140px 100px;
+    margin: 80px 0;
+    text-align: start;
+}
+#title-more-about-us {
+    font-weight: bolder;
+    color: black;
+    font-size: 4.5rem;
+    padding-left: 150px;
+    padding-top: 50px;
+}
+#more-about {
+    padding-left: 150px;
+    padding-top: 50px;
+}
+#title-design {
+    margin-top: 150px;
+    padding-top: 20px;
+}
+#project {
+    scroll-behavior: smooth;
+    margin-top: 150px;
+    padding-left: 150px;
+    overflow-x: scroll;
+}
+#project:hover {
+    animation: bg-fade 2s linear infinite;
+}
+#img-flex img {
+    width: 650px;
+    height: 400px;
+}
+#img-content {
+    position: absolute;
+    margin: 40px 60px;
+}
+#testimonials {
+    margin: 150px 0;
+}
+#testimonial-title {
+    color: black;
+    font-size: 4rem;
+    text-align: center;
+    font-weight: bolder;
+}
+#content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#content main {
+    border-radius: 5px;
+    border: 2px solid gray;
+    padding: 15px 80px;
+}
+#content article {
+    width: 500px;
+}
+#content footer img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    outline: 4px solid dodgerblue;
+}
+#skill {
+    margin: 100px 0;
+}
+#our-skills {
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 4rem;
+    letter-spacing: 2px;
+}
+#carouselExampleIndicators {
+    border-top-left-radius: 150px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 150px;
+}
+#blog {
+    margin: 150px 0px;
+}
+#title-blog {
+    color: black;
+    font-size: 4rem;
+    font-weight: bolder;
+}
+#btn-blog {
+    font-size: 3rem;
+}
+#btn-blog button:hover {
+    transition: .2s all;
+    border: 2px solid black;
+    border-radius: 0%;
+    background-color: black;
+    color: white;
+}
+#blog-post {
+    margin: 30px 110px;
+    padding: 10px 140px;
+}
+#right-blog-head {
+    text-align: end;
+}
+#btn-blog-title {
+    border: none;
+    outline: none;
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    font-weight: 600;
+    letter-spacing: 1.4px;
+}
+#img-blog:hover {
+    transition: .3s all;
+    filter: grayscale(.9);
+    cursor: pointer;
+}
+#contact {
+    background-color: rgba(143, 178, 188, 0.6);
+    padding: 100px 0;
+}
+#contact-title {
+    color: black;
+    font-size: 5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+footer #row {
+    padding: 40px 100px;
+}
+#social-links {
+    display: flex;
+    flex-direction: row;
+}
+@keyframes bg-fade {
+    0%{
+    }
+    100%{
+        background-color: white;
+    }
+}
+@keyframes arrowdown {
+    0% {}
+    90% {
+        transform: translateY(10px);
+    }
+}
+/* For medium screens */
+@media only screen and (max-width: 768px) {
+    #menu-links ul li a {
+        font-size: 50px;
+    }
+    #hero-title {
+        font-size: 70px;
+        padding-left: 10px;
+        font-weight: bolder;
+    }
+    #hero-para-top {
+        padding: 0;
+        margin: 0
+    }
+    #hero-para-bot {
+        padding: 0;
+        margin: 0;
+    }
+    #hero-left {
+        padding-bottom: 40px;
+    }
+    #our-partners i {
+        opacity: .9;
+        font-size: 30px;
+        margin: 10px;
+    }
+    #our-partners a {
+        margin: 0 10px;
+    }
+    #para-sect-1 {
+        font-size: 1.15rem;
+        padding: 30px 50px;
+        margin: 80px 0;
+        text-align: start;
+    }
+    #title-more-about-us {
+        font-weight: bolder;
+        color: black;
+        font-size: 3rem;
+        padding-left: 10px;
+        padding-top: 20px;
+    }
+    #more-about {
+        padding-left: 10px;
+        padding-top: 50px;
+    }
+    #title-design {
+        margin-top: 0px;
+    }
+    #more-about-middle {
+        padding: 0;
+    }
+    #project {
+        padding: 10px;
+        border-radius: 0%;
+    }
+    #img-flex img {
+        width: 400px;
+        height: 250px;
+    }
+    #testimonial-title {
+        color: black;
+        font-size: 3rem;
+        text-align: start;
+        padding: 10px;
+        font-weight: bolder;
+    }
+    #content main {
+        padding: 10px 30px;
+    }
+    #content article {
+        width: 300px;
+    }
+    #our-skills {
+        color: white;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 3rem;
+        letter-spacing: 2px;
+    }
+    #carouselExampleIndicators {
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+    }
+    #title-blog {
+        color: black;
+        font-size: 2.5rem;
+        font-weight: bolder;
+    }
+    #btn-blog {
+        font-size: 2rem;
+    }
+    #right-blog-head {
+        text-align: center;
+    }
+    #blog-post {
+        margin: 0px 0px;
+        padding: 0px 0px;
+    }
+    #contact-title {
+        color: black;
+        font-size: 3rem;
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+    footer #row {
+        padding: 10px;
+    }
+}

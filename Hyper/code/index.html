@@ -1,0 +1,584 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Hyper :: Bootstrap 5 Preview</title>
+    <!-- Linking stylesheets -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS v5.0.2 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  </head>
+  <body style="background-color: rgb(241, 247, 251);">
+      
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light px-3 fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-bold fs-3" href="../code/index.html">H Y P E R</a>
+          <div class="d-flex flex-row justify-content-center align-items-center">
+              <button class="btn fs-4" id="btn-bag-fill">
+                  <i class="bi bi-bag-fill"></i>
+                </button>
+              <button class="btn fs-4" id="btn-plus">
+                <i class="bi bi-plus-lg"></i>
+              </button>
+          </div>  
+        </div>
+      </nav>
+
+      <!-- Cart Modal -->
+      <div class="container-fluid" id="cart-modal">
+        <div class="d-flex flex-column justify-content-end align-items-end">
+            <header class="d-flex flex-row w-100 justify-content-center align-items-center" id="cart-header">
+                <h4 class="w-100">
+                    Your Cart
+                </h4>
+                <button class="btn fs-2" id="btn-cross-cart">
+                    <i class="bi bi-x"></i>
+                </button>
+            </header>
+            <main class="d-flex flex-column w-100 justify-content-center align-items-center" id="cart-main">
+                <p class="fs-3">No items found.</p>
+                <button class="btn" id="btn-cart-packages">GO TO PACKAGES</button>
+            </main>
+        </div>
+      </div>
+
+      <!-- Menu Modal -->
+      <div class="container-fluid" id="menu-modal">
+        <div class="d-flex flex-column justify-content-center align-items-center" id="menu-links">
+            <ul>
+                <li class="nav-item list-unstyled">
+                    <a href="../code/index.html" class="nav-link">HOME</a>
+                </li>
+                <li class="nav-item list-unstyled">
+                    <a href="#about" class="nav-link">ABOUT</a>
+                </li>
+                <li class="nav-item list-unstyled">
+                    <a href="#pricing" class="nav-link">PRICING</a>
+                </li>
+                <li class="nav-item list-unstyled">
+                    <a href="#contact" class="nav-link">CONTACT</a>
+                </li>
+            </ul>
+            <footer class="row container-fluid px-4">
+                <div class="col-lg-6 col-md-6 col-sm-12 text-start" id="cart-footer-left">
+                    <p class="text-dark fs-4">
+                        <i class="bi bi-geo-alt-fill"></i>
+                        <span class="text-secondary">Howrah, WB</span>
+                    </p>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 text-end" id="cart-footer-right">
+                    <div>
+                        <button class="btn" id="btn-linkedin">
+                            <i class="bi bi-linkedin"></i>
+                        </button>
+                        <button class="btn" id="btn-instagram">
+                            <i class="bi bi-instagram"></i>
+                        </button>
+                        <button class="btn" id="btn-facebook">
+                            <i class="bi bi-facebook"></i>
+                        </button>
+                        <button class="btn" id="btn-twitter">
+                            <i class="bi bi-twitter"></i>
+                        </button>
+                        <button class="btn" id="btn-dribbble">
+                            <i class="bi bi-dribbble"></i>
+                        </button>
+                    </div>
+                </div>
+            </footer>
+        </div>
+      </div>
+
+      <!-- Hero Section -->
+      <section class="container-fluid" id="hero">
+        <div class="row">
+            <div class="col-lg-7 col-md-12 col-sm-12" id="hero-left">
+               <div>
+                   <h1 id="hero-title">THINK. CREATE. SOLUTION.</h1>
+               </div>
+            </div>
+            <div class="col-lg-5 col-md-12 col-sm-12" id="hero-right">
+                <div id="hero-para-top">
+                    <p class="fs-5 p-3 text-secondary" style="font-weight: bold;">
+                        We are an award-winning branding <br> & web agency committed 
+                        to excellence <br> since forever.
+                    </p>
+                </div>
+                <div id="hero-para-bot">
+                    <p class="fs-5 p-3 text-secondary" style="font-weight: bold;">
+                        We set the standard of exceptional design <br> creatively, technically, sustainably, and <br> ethically so that 
+                        you can make the <br> extraordinary impact that you seek.
+                    </p>
+                </div>
+                <button class="btn btn-outline-dark" id="btn-say-hello">
+                    Say Hello
+                </button>
+            </div>
+        </div>
+        <div class="mt-4">
+            <center>
+                <a href="#work" class="nav-link">
+                    <button class="btn fs-5 rounded-pill" id="btn-arrow-down">
+                        <i class="bi bi-arrow-down"></i>
+                    </button>
+                </a>    
+            </center>
+        </div>
+      </section>
+
+      <!-- Our Work -->
+      <section class="container-fluid my-5 py-5" id="work">
+        <center>
+            <h2 class="fw-bold" style="color: black;">
+                WE ARE BLESSED TO WORK <br> 
+                WITH LEADING BRANDS.
+            </h2>
+            <div class="mt-5 row" id="our-partners">
+                <div class="col-lg-12 col-md-12 col-sm-12 my-3 d-flex flex-row justify-content-center align-items-center">
+                    <a href="https://www.twitter.com" class="nav-link fs-1 text-dark">
+                        <i class="bi bi-twitter"></i>
+                    </a>
+                    <a href="https://www.linkedin.com" class="nav-link fs-1 text-dark">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                    <a href="https://www.youtube.com" class="nav-link fs-1 text-dark">
+                        <i class="bi bi-youtube"></i>
+                    </a>
+                    <a href="https://www.github.com" class="nav-link fs-1 text-dark">
+                        <i class="bi bi-github"></i>
+                    </a>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 my-3 d-flex flex-row justify-content-center align-items-center">
+                    <a href="https://www.google.com" class="nav-link fs-1 text-dark">
+                        <i class="bi bi-google"></i>
+                    </a>
+                    <a href="https://www.meta.com" class="nav-link fs-1 text-dark">
+                        <i class="bi bi-meta"></i>
+                    </a>
+                    <a href="https://www.microsoft.com" class="nav-link fs-1 text-dark">
+                        <i class="bi bi-microsoft"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="my-3">
+                <button class="btn btn-outline-dark" id="btn-view-our-work">
+                    View our Work
+                </button>
+            </div>
+        </center>
+      </section>
+
+      <!-- Section 1 undefined -->
+      <section class="container-fluid my-5" id="sec-1">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12 text-light my-3" id="sec-1-left">
+               <center>
+                    <div id="para-sect-1">
+                        Think of the world's most iconic and successful brands.
+                        They are easily recognizable, findable, and impactful.
+                        That's not by accident visibility and trust are the 
+                        superpowers of exceptional design. <br> <br>
+                        We believe that the human dimensions essential to 
+                        start any successful project and that is where splendid
+                        emotional relationships between the company and people
+                        are born. <br><br>
+                        Intuition and strategy integrate the research methodology
+                        that we also apply to traditional media.
+                    </div>
+                </center>    
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 my-3" id="sec-1-right">
+               <img src="../asset/img/6230ab3b38ecaa057b61627c_photo-1-p-1080.jpeg" alt="" class="img-fluid">
+            </div>
+        </div>
+      </section>
+
+      <!-- More about us -->
+      <section class="container-fluid" id="more-about-us">
+        <div class="my-4">
+            <h1 id="title-more-about-us">
+                WE BUILD <br> EXPERIENCES
+            </h1>
+        </div>
+        <div class="my-3" id="more-about">
+            <div class="row">
+                <div class="col-lg-4 col-md-12 col-sm-12" id="more-about-left">
+                    <div class="py-4">
+                        <i class="bi bi-activity fs-1"></i>
+                    </div>
+                    <div id="content-more-about">
+                        <h4 id="title-design">DESIGN</h4>
+                        <p class="text-secondary fs-5 w-75">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                        <button class="btn btn-dark">
+                            LEARN MORE
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12" id="more-about-middle">
+                    <div class="p-4">
+                        <img src="../asset/img/6231c54ce83fb34cd0715a07_photo-2-p-800.jpeg" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12" id="more-about-right">
+                    <div class="py-4">
+                        <i class="bi bi-arrows-fullscreen fs-1"></i>
+                    </div>
+                    <div id="content-more-about">
+                        <h4 id="title-design">PROTOTYPING</h4>
+                        <p class="text-secondary fs-5 w-75">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </p>
+                        <button class="btn btn-dark">
+                            LEARN MORE
+                        </button>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <!-- Recent Project -->
+      <section class="container-fluid" id="project">
+          <h1 class="py-4 fw-bolder" style="color: black;">RECENT PROJECT</h1>
+        <div class="d-flex flex-row" id="img-flex">
+            <a href="#" class="nav-link">
+                <div id="img-content">
+                    <button class="btn btn-outline-dark fs-2">
+                        Preview
+                    </button>
+                </div>
+                <img src="../asset/img/pexels-anni-roenkae-2317742.jpg" alt="">
+            </a>
+            <a href="#" class="nav-link">
+                <div id="img-content">
+                    <button class="btn btn-outline-dark fs-2">
+                        Preview
+                    </button>
+                </div>
+                <img src="../asset/img/pexels-anni-roenkae-2693208.jpg" alt="">
+            </a>
+            <a href="#" class="nav-link">
+                <div id="img-content">
+                    <button class="btn btn-outline-dark fs-2">
+                        Preview
+                    </button>
+                </div>
+                <img src="../asset/img/pexels-anni-roenkae-2693212.jpg" alt="">
+            </a>
+            <a href="#" class="nav-link">
+                <div id="img-content">
+                    <button class="btn btn-outline-dark fs-2">
+                        Preview
+                    </button>
+                </div>
+                <img src="../asset/img/pexels-tuesday-temptation-3780104.jpg" alt="">
+            </a>
+            <a href="#" class="nav-link">
+                <div id="img-content">
+                    <button class="btn btn-outline-dark fs-2">
+                        Preview
+                    </button>
+                </div>
+                <img src="../asset/img/pexels-frank-cone-3573555.jpg" alt="">
+            </a>
+        </div>
+      </section>
+
+      <!-- Testimonials -->
+      <section class="container-fluid" id="testimonials">
+        <h1 id="testimonial-title">
+            WHAT THEY THINK
+        </h1>
+        <!-- Carousel -->
+        <div id="carouselExampleIndicators" class="bg-dark carousel slide container my-5 py-5" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner my-5">
+              <div class="carousel-item active">
+               <div id="content">
+                   <main>
+                       <header class="d-flex flex-row mt-3">
+                        <i class="bi bi-star-fill text-warning p-1"></i>
+                        <i class="bi bi-star-fill text-warning p-1"></i>
+                        <i class="bi bi-star-fill text-warning p-1"></i>
+                        <i class="bi bi-star-fill text-warning p-1"></i>
+                        <i class="bi bi-star-fill text-warning p-1"></i>
+                       </header>
+                       <article class="fs-5 py-5 fw-bold text-light">
+                           "The public is more familiar with bad
+                           design than good design. It is, in effect,
+                           conditioned to prefer bad design, 
+                           because that is what it lives with."
+                       </article>
+                       <footer class="d-flex flex-row text-light mb-4">
+                            <img src="../asset/people/6231d7ce02e1f6f2cbfd0797_user-3.jpeg" alt="">
+                            <div class="d-flex flex-column ms-4">
+                                <h2>PAIGE BRENNAN</h2>
+                                <p class="text-secondary">HYPER DESIGNER</p>
+                            </div>
+                        </footer>
+                   </main>
+               </div>
+              </div>
+              <div class="carousel-item">
+                <div id="content">
+                    <main>
+                        <header class="d-flex flex-row mt-3">
+                         <i class="bi bi-star-fill text-warning p-1"></i>
+                         <i class="bi bi-star-fill text-warning p-1"></i>
+                         <i class="bi bi-star-fill text-warning p-1"></i>
+                         <i class="bi bi-star-fill text-warning p-1"></i>
+                         <i class="bi bi-star-fill text-warning p-1"></i>
+                        </header>
+                        <article class="fs-5 py-5 fw-bold text-light">
+                            "A designer knows he has achieved
+                            perfection not when there is nothing left
+                            to add, but when there is nothing left to
+                            take away."
+                        </article>
+                        <footer class="d-flex flex-row text-light mb-4">
+                             <img src="../asset/people/6231d7ce02e1f60b8dfd079b_user-5.jpeg" style="outline: 4px solid yellow;" alt="">
+                             <div class="d-flex flex-column ms-4">
+                                 <h2>MATTHEW WEBSTER</h2>
+                                 <p class="text-secondary">HYPER DESIGNER</p>
+                             </div>
+                         </footer>
+                    </main>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div id="content">
+                    <main>
+                        <header class="d-flex flex-row mt-3">
+                         <i class="bi bi-star-fill text-warning p-1"></i>
+                         <i class="bi bi-star-fill text-warning p-1"></i>
+                         <i class="bi bi-star-fill text-warning p-1"></i>
+                         <i class="bi bi-star-fill text-warning p-1"></i>
+                         <i class="bi bi-star-fill text-warning p-1"></i>
+                        </header>
+                        <article class="fs-5 py-5 fw-bold text-light">
+                            "The public is more familiar with bad
+                            design than good design. It is, in effect,
+                            conditioned to prefer bad design, 
+                            because that is what it lives with."
+                        </article>
+                        <footer class="d-flex flex-row text-light mb-4">
+                             <img src="../asset/people/6231d7ce02e1f658a6fd0799_user-2.jpeg" style="outline: 4px solid crimson;" alt="">
+                             <div class="d-flex flex-column ms-4">
+                                 <h2>HARRISON ATKINS</h2>
+                                 <p class="text-secondary">HYPER DESIGNER</p>
+                             </div>
+                         </footer>
+                    </main>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div id="content">
+                    <main>
+                        <header class="d-flex flex-row mt-3">
+                         <i class="bi bi-star-fill text-warning p-1"></i>
+                         <i class="bi bi-star-fill text-warning p-1"></i>
+                         <i class="bi bi-star-fill text-warning p-1"></i>
+                         <i class="bi bi-star-fill text-warning p-1"></i>
+                         <i class="bi bi-star-fill text-warning p-1"></i>
+                        </header>
+                        <article class="fs-5 py-5 fw-bold text-light">
+                            "A designer knows he has achieved
+                            perfection not when there is nothing left
+                            to add, but when there is nothing left to
+                            take away."
+                        </article>
+                        <footer class="d-flex flex-row text-light mb-4">
+                             <img src="../asset/people/6231d7ce02e1f6e693fd0795_user-1.jpeg" style="outline: 4px solid mediumslateblue;" alt="">
+                             <div class="d-flex flex-column ms-4">
+                                 <h2>CAITLIN MARIE WARD</h2>
+                                 <p class="text-secondary">HYPER DESIGNER</p>
+                             </div>
+                         </footer>
+                    </main>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev d-none" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next d-none" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+      </section>
+
+      <!-- Our Skills -->
+      <section class="container-fluid" id="skill">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12 my-3" id="sec-1-right">
+                <img src="../asset/img/6230ab3b38ecaa057b61627c_photo-1-p-1080.jpeg" alt="" class="img-fluid">
+             </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 text-light my-3" id="sec-1-left">
+               <center>
+                    <div id="para-sect-1">
+                        <h1 class="pb-2" id="our-skills">
+                            OUR SKILLS
+                        </h1>
+                        <div class="row mt-5 px-5">
+                            <div class="col-lg-10 col-md-10 col-sm-10">
+                                <p class="fs-5 fw-bold">GRAPHIC DESIGN</p>
+                            </div>
+                            <div class="col-lg-2 col-md-2 col-sm-2">
+                                80%
+                            </div>
+                            <progress id="file" value="80" max="100" class="mb-3">
+                                80%
+                            </progress>    
+                            <div class="col-lg-10 col-md-10 col-sm-10">
+                                <p class="fs-5 fw-bold">PHOTOSHOP</p>
+                            </div>
+                            <div class="col-lg-2 col-md-2 col-sm-2">
+                                70%
+                            </div>
+                            <progress id="file" value="70" max="100" class="mb-3">
+                                70%
+                            </progress>
+                            <div class="col-lg-10 col-md-10 col-sm-10">
+                                <p class="fs-5 fw-bold">FIGMA</p>
+                            </div>
+                            <div class="col-lg-2 col-md-2 col-sm-2">
+                                90%
+                            </div>
+                            <progress id="file" value="90" max="100">
+                                90%
+                            </progress>
+                        </div>
+                        <p style="font-size: 14px;text-align: center;">*Companies we've helped build their website with Hyper</p>
+                    </div>
+                </center>    
+            </div>
+        </div>
+      </section>
+
+      <!-- Our Blog -->
+      <section class="container-fluid" id="blog">
+        <div class="container row text-center mb-4">
+            <div class="col-lg-8 col-md-8 col-sm-8" id="left-blog-head">
+                <div class="p-3">
+                    <h1 id="title-blog">
+                        OUR BLOG
+                    </h1>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4" id="right-blog-head">
+                <div class="p-3" id="btn-blog">
+                    <button class="btn">VIEW BLOG</button>
+                </div>
+            </div>
+        </div>
+        <div class="container row my-3 text-center" id="blog-post">
+            <div class="col-lg-6 col-md-12 col-sm-12 py-4">
+               <div class="mb-4">
+                   <img src="../asset/people/622f2476e95ec76a7a37e9b1_blog-1.jpg" alt="" class="img-fluid" id="img-blog">
+               </div>
+               <div class="text-start">
+                   <button id="btn-blog-title" class="mb-4">
+                       MARKETING
+                   </button>
+                   <h3 style="color: black;font-weight: 600;" class="mb-4">
+                        CURATING A WORKPLACE THAT INSPIRES ALL OF US
+                    </h3>
+                    <button class="btn mb-4 btn-outline-dark">
+                        LEARN MORE
+                    </button>
+               </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 py-4">
+                <div class="mb-4">
+                    <img src="../asset/people/622f2476e95ec7793237e9b3_blog-2.jpg" alt="" class="img-fluid" id="img-blog">
+                </div>
+                <div class="text-start">
+                    <button id="btn-blog-title" class="mb-4">
+                        DESIGN
+                    </button>
+                    <h3 style="color: black;font-weight: 600;" class="mb-4">
+                         DESIGNERS WHO CHANGED THE WEB WITH WEBFLOW
+                     </h3>
+                     <button class="btn mb-4 btn-outline-dark">
+                         LEARN MORE
+                     </button>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <!-- Contact Us -->
+      <section class="container-fluid text-center" id="contact">
+        <div id="contact-main">
+            <h1 id="contact-title">
+                READY TO TALK
+            </h1>
+            <p class="fs-4 py-4 text-secondary">FEEL FREE TO CONTACT US</p>
+            <button class="btn btn-outline-dark">
+                LET'S TALK
+            </button>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="container-fluid">
+          <div class="container row" id="row">
+            <div class="col-lg-8 col-md-12 col-sm-12">
+                <div>
+                    <a href="../code/index.html" class="nav-link fs-2 fw-bolder" style="letter-spacing: 8px;color: black;">HYPER</a>
+                    <p class="fs-5 text-secondary ps-3">
+                        Hyper is an award UI/UX designs and branding <br> 
+                        agency based in New York, USA.
+                    </p>
+                </div>
+                <div id="social-links" class="ps-3 pt-4">
+                    <button class="btn" id="btn-linkedin">
+                        <i class="bi bi-linkedin"></i>
+                    </button>
+                    <button class="btn" id="btn-instagram">
+                        <i class="bi bi-instagram"></i>
+                    </button>
+                    <button class="btn" id="btn-facebook">
+                        <i class="bi bi-facebook"></i>
+                    </button>
+                    <button class="btn" id="btn-twitter">
+                        <i class="bi bi-twitter"></i>
+                    </button>
+                    <button class="btn" id="btn-dribbble">
+                        <i class="bi bi-dribbble"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12 ps-4">
+                <p class="py-3 fs-5 text-secondary mt-4">
+                    New South Head Rd, Double Bay NSW 2028, New York
+                </p>
+                <p class="fs-5 py-1 fw-bold" style="color: black;text-decoration: underline;">contact@hyper.com</p>
+                <p class="fs-5 fw-bold" style="color: black;text-decoration: underline;">+55 555 5555</p>
+            </div>
+          </div>
+          <h4 class="py-3 text-center fs-5 text-secondary" style="border-top: .5px solid gray;">
+              &copy; Bootstrap 5 Preview, Made by <span class="text-dark fw-bold">s@m@</span>
+          </h4>
+      </footer>
+
+                <!-- Bootstrap JavaScript Libraries -->
+                <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+                <!-- jQuery CDN -->
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+                <!-- Linking Javascript file -->
+                <script src="app.js"></script>
+</body>
+</html>

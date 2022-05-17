@@ -1,0 +1,634 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Formidable || Bootstrap 5 Preview</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- CSS file link -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- ScroLL Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Bootstrap CSS v5.0.2 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  </head>
+  <body style="font-family: 'Montserrat', sans-serif;">
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light text-dark px-4 fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand w-75" href="../code/index.html"> <img src="../asset/img/622d33e4e92a9cf5d5107592_Logo-p-500.png" width="200" height="100" alt="" class="px-1 py-2"> </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <button class="btn m-0 p-0" id="btn-modal">
+                      <img src="../asset/svg/icons8-shopping-cart-50.png" alt="">
+                  </button>
+                  <li class="nav-item mx-3 text-center" id="menu">
+                    <a class="nav-link fs-2 fw-bold text-dark" aria-current="page" href="#">Menu</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+          <!-- Fullscreen Modal -->
+          <div class="container-fluid" id="fs-modal">
+              <div class="container-fluid float-end" id="cart-modal">
+                <h1 id="cart-title">Your Cart</h1>
+                <p id="cart-para">No items found.</p>
+                <div class="d-flex justify-content-center align-items-center mt-4">
+                    <button id="cart-btn">Back to Plans</button>
+                </div>
+              </div>  
+          </div>
+
+          <!-- Menu -->
+          <div class="container-fluid bg-dark" id="menubar">
+              <div class="container-fluid">
+                  <div class="text-center" id="menu-link">
+                    <li class="nav-item list-unstyled py-1">
+                        <a class="nav-link fs-1 fw-bold text-warning" aria-current="page" href="#">HOME</a>
+                    </li>
+                    <li class="nav-item list-unstyled py-1">
+                        <a class="nav-link fs-1 fw-bold text-warning" aria-current="page" href="#">ABOUT</a>
+                    </li>
+                    <li class="nav-item list-unstyled py-1">
+                        <a class="nav-link fs-1 fw-bold text-warning" aria-current="page" href="#">WORKS</a>
+                    </li>
+                    <li class="nav-item list-unstyled py-1">
+                        <a class="nav-link fs-1 fw-bold text-warning" aria-current="page" href="#">PLANS</a>
+                    </li>
+                    <li class="nav-item list-unstyled py-1">
+                        <a class="nav-link fs-1 fw-bold text-warning" aria-current="page" href="#">NEWS</a>
+                    </li>
+                    <li class="nav-item list-unstyled py-1">
+                        <a class="nav-link fs-1 fw-bold text-warning" aria-current="page" href="#">CONTACT</a>
+                    </li>
+                  </div>
+              </div>
+          </div>
+
+          <!-- BLOG 1 -->
+          <section class="container-fluid" id="blog-1">
+            <div class="row">
+                <div class="container-fluid col-lg-6 col-md-12 col-sm-12" id="blog-1-left">
+                  <div class="py-3">
+                    <h1 class="text-dark px-3">
+                        Discovering New Creative Landscapes
+                    </h1>
+                    <p class="my-5 fs-4 px-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi esse enim sed provident est porro rerum cum dolores dolorum, accusamus laudantium voluptate laborum a eaque.
+                    </p>
+                    <div class="my-3 px-4">
+                        <button class="btn" id="btn-touch">
+                            Get in touch
+                        </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="container-fluid col-lg-6 col-md-12 col-sm-12" id="blog-1-right">
+                  <div class="pt-5 px-5">
+                      <img src="../asset/img/6240844df4fa06d56a3da3ec_Hero-image-p-1080.jpeg" alt="" class="img-fluid pb-3">
+                  </div>
+                </div>
+            </div>
+          </section>
+
+          <!-- About -->
+          <section class="container-fluid my-5" id="about">
+            <div class="container">
+              <h1 class="pb-5 pt-2" id="about-h1">Formidable is a <br> Branding Agency.</h1>
+            </div>
+          </section>
+
+          <!-- Features -->
+          <div class="container-fluid container" id="features">
+            <div class="row my-4">
+              <div class="container-fluid col-lg-6 col-md-12 col-sm-12" id="features-left">
+                <div class="p-4">
+                  <img src="../asset/svg/icons8-graph.gif" alt="" class="mb-5 mt-3" width="120" height="120">
+                  <h3 class="py-3">Virtual Marketing</h3>
+                  <p class="fs-5 py-2">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint odit iste perspiciatis qui ab, cupiditate unde quia animi?
+                  </p>
+                </div>
+              </div>
+              <div class="container-fluid col-lg-6 col-md-12 col-sm-12" id="features-right">
+                <div class="p-4">
+                  <img src="../asset/svg/icons8-mind-map.gif" alt="" class="mb-5 mt-3" width="120" height="120">
+                  <h3 class="py-3">Web Strategies</h3>
+                  <p class="fs-5 py-2">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint odit iste perspiciatis qui ab, cupiditate unde quia animi?
+                  </p>
+                </div>
+              </div>
+              <div class="container-fluid col-lg-6 col-md-12 col-sm-12" id="features-left2">
+                <div class="p-4">
+                  <img src="../asset/svg/icons8-idea.gif" alt="" class="mb-5 mt-3" width="120" height="120">
+                  <h3 class="py-3">Digital Solutions</h3>
+                  <p class="fs-5 py-2">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint odit iste perspiciatis qui ab, cupiditate unde quia animi?
+                  </p>
+                </div>
+              </div>
+              <div class="container-fluid col-lg-6 col-md-12 col-sm-12" id="features-right2">
+                <div class="p-4">
+                  <img src="../asset/svg/icons8-delivery.gif" alt="" class="mb-5 mt-3" width="120" height="120">
+                  <h3 class="py-3">Platform Transitions</h3>
+                  <p class="fs-5 py-2">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint odit iste perspiciatis qui ab, cupiditate unde quia animi?
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+      <!-- Projects -->
+      <div class="container-fluid" id="projects">
+        <div class="py-5 row">
+          <div class="col-lg-6 col-md-12 col-sm-12" id="proj-1">
+            <div id="img-content">
+              <button class="btn bg-dark fs-3 fw-bold text-warning px-3">2021</button>
+              <button class="btn bg-warning text-dark fs-3 px-3 py-2">Maiores Vutem Delectus</button>
+            </div>
+            <div id="img">
+              <img src="../asset/img/01.jpg" alt="" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12" id="proj-2">
+            <div id="img-content">
+              <button class="btn bg-dark fs-3 fw-bold text-warning px-3">2018</button>
+              <button class="btn bg-warning text-dark fs-3 px-3 py-2">Laudantium Nostrum Deleniti</button>
+            </div>
+            <div id="img">
+              <img src="../asset/img/06.jpg" alt="" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12" id="proj-1">
+            <div id="img-content">
+              <button class="btn bg-dark fs-3 fw-bold text-warning px-3">2022</button>
+              <button class="btn bg-warning text-dark fs-3 px-3 py-2">Nemo Consequatur Nobis</button>
+            </div>
+            <div id="img">
+              <img src="../asset/img/03.jpg" alt="" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12" id="proj-2">
+            <div id="img-content">
+              <button class="btn bg-dark fs-3 fw-bold text-warning px-3">2019</button>
+              <button class="btn bg-warning text-dark fs-3 px-3 py-2">Inventore Consequatur Eligendi</button>
+            </div>
+            <div id="img">
+              <img src="../asset/img/04.jpg" alt="" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12" id="proj-1">
+            <div id="img-content">
+              <button class="btn bg-dark fs-3 fw-bold text-warning px-3">2021</button>
+              <button class="btn bg-warning text-dark fs-3 px-3 py-2">Reprehenderit Velit Aperiam</button>
+            </div>
+            <div id="img">
+              <img src="../asset/img/05.jpg" alt="" class="img-fluid">
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12" id="proj-2">
+            <div id="img-content">
+              <button class="btn bg-dark fs-3 fw-bold text-warning px-3">2019</button>
+              <button class="btn bg-warning text-dark fs-3 px-3 py-2">Cumque Quidem Vaboriosam</button>
+            </div>
+            <div id="img">
+              <img src="../asset/img/02.jpg" alt="" class="img-fluid">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Awards -->
+      <div class="container-fluid" id="awards">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 col-sm-12 py-4" id="awards-left">
+            <div class="mt-5 pt-5 container">
+              <img src="../asset/img/622d33e4e92a9cf5d5107592_Logo-p-500.png" alt="" class="img-fluid" id="logo-img">
+            </div>
+              <div class="mt-5">
+                <p class="fs-4 ps-4">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis minima dolor voluptates, accusantium sed hic blanditiis dolorum praesentium, rem nihil ipsa et dicta enim doloribus.
+                </p>
+              </div>
+              <div class="text-center mt-5 pt-4">
+                <button class="btn fs-5 px-4" id="btn-pur">
+                  PURCHASE @ $79
+                </button>
+              </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12 px-4 py-4" id="awards-right">
+            <div class="row">
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                <h2 class="pt-3 pb-4">Awwwards</h2>
+                <li class="list-unstyled pt-1 pb-2 my-2" style="border-bottom: 2px solid black;">Site of the day</li>
+                <li class="list-unstyled pt-1 pb-2 my-2" style="border-bottom: 2px solid black;">Developer Award</li>
+                <li class="list-unstyled pt-1 pb-2 my-2" style="border-bottom: 2px solid black;">Honorable Mention</li>
+                <li class="list-unstyled pt-1 pb-2 my-2" style="border-bottom: 2px solid black;">Mobile Excellence</li>
+                <li class="list-unstyled pt-1 pb-2 my-2" style="border-bottom: 2px solid black;">UX Design Award</li>
+                <li class="list-unstyled pt-1 pb-2 my-2" style="border-bottom: 2px solid black;">Innovation Design Award</li>
+                <li class="list-unstyled pt-1 pb-2 my-2 border-0" style="border-bottom: 2px solid black;">Website of the Day</li>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="my-3">
+                  <img src="../asset/img/pexels-tima-miroshnichenko-4841641.jpg" alt="" class="img-fluid">
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-12 mt-5">
+                <div class="my-3">
+                  <img src="../asset/img/pexels-tima-miroshnichenko-4841641.jpg" alt="" class="img-fluid">
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-12 mt-5">
+                <h3 class="py-3">Our Skills</h3>
+                <li class="list-unstyled pt-1 pb-3 my-2" style="border-bottom: 2px solid black;">Photoshop <button class="btn bg-warning text-dark float-end">Expert</button> </li>
+                <li class="list-unstyled pt-1 pb-3 my-2" style="border-bottom: 2px solid black;">Photoshop <button class="btn bg-secondary text-dark float-end">Proficient</button> </li>
+                <li class="list-unstyled pt-1 pb-3 my-2" style="border-bottom: 2px solid black;">Photoshop <button class="btn bg-warning text-dark float-end">Webflow</button> </li>
+                <li class="list-unstyled pt-1 pb-3 my-2" style="border-bottom: 2px solid black;">Photoshop <button class="btn bg-warning text-dark float-end">Illustrator</button> </li>
+                <li class="list-unstyled pt-1 pb-3 my-2" style="border-bottom: 2px solid black;">Photoshop <button class="btn bg-secondary text-dark float-end">After Effects</button> </li>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Milestones -->
+      <section class="container-fluid my-5" id="milestones">
+        <section class="row bg-warning text-dark text-center">
+          <div class="col-lg-3 col-md-3 col-sm-12">
+            <h1 class="py-3" style="font-size: 60px;">20+</h1>
+            <p>Projects Designed</p>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-12">
+            <h1 class="py-3" style="font-size: 60px;">145+</h1>
+            <p>Happy Clients</p>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-12">
+            <h1 class="py-3" style="font-size: 60px;">350+</h1>
+            <p>Completed Projects</p>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-12">
+            <h1 class="py-3" style="font-size: 60px;">30+</h1>
+            <p>Countries</p>
+          </div>
+        </section>
+      </section>
+
+      <!-- Latest News -->
+      <div class="container-fluid my-5 py-5" id="news">
+        <h1 class="px-4" id="news-title">Our Latest news</h1>
+        <div class="row py-5 px-4">
+          <!-- First Row -->
+          <div class="col-lg-6 col-md-12 col-sm-12 py-4" id="news-left">
+            <img src="../asset/img/1604084537863.jpg" alt="" class="img-fluid">
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12 ps-5 py-4" id="news-right">
+            <p class="fs-5 mt-5">
+              March 15, 2022
+            </p>
+            <h1 class="py-3">
+              15 Best Blogs To Follow About Web Design
+            </h1>
+            <p class="fs-5">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur modi esse doloremque exercitationem molestias.
+            </p>
+            <div class="my-4">
+              <button class="btn fs-2" id="btn-read-more">Read More</button>
+            </div>
+          </div>
+          <!-- Second Row -->
+          <div class="col-lg-6 col-md-12 col-sm-12 ps-5 py-4" id="news-left">
+            <p class="fs-5 mt-5">
+              March 15, 2022
+            </p>
+            <h1 class="py-3">
+              10 Great Examples Of Responsive Websites
+            </h1>
+            <p class="fs-5">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur modi esse doloremque exercitationem molestias.
+            </p>
+            <div class="my-4">
+              <button class="btn fs-2" id="btn-read-more">Read More</button>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12 py-4" id="news-right">
+            <img src="../asset/img/jud-mackrill-SOexcR772MU-unsplash-1024x683.webp" alt="" class="img-fluid">
+          </div>
+          <!-- Third Row -->
+          <div class="col-lg-6 col-md-12 col-sm-12 py-4" id="news-left">
+            <img src="../asset/img/1604084537863.jpg" alt="" class="img-fluid">
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12 ps-5 py-4" id="news-right">
+            <p class="fs-5 mt-5">
+              March 15, 2022
+            </p>
+            <h1 class="py-3">
+              How to improve Web Design Process
+            </h1>
+            <p class="fs-5">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur modi esse doloremque exercitationem molestias.
+            </p>
+            <div class="my-4">
+              <button class="btn fs-2" id="btn-read-more">Read More</button>
+            </div>
+          </div>
+          <!-- Fourth Row -->
+          <div class="col-lg-6 col-md-12 col-sm-12 ps-5 py-4" id="news-left">
+            <p class="fs-5 mt-5">
+              March 15, 2022
+            </p>
+            <h1 class="py-3">
+              The History Of Web Design
+            </h1>
+            <p class="fs-5">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur modi esse doloremque exercitationem molestias.
+            </p>
+            <div class="my-4">
+              <button class="btn fs-2" id="btn-read-more">Read More</button>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12 py-4" id="news-right">
+            <img src="../asset/img/jud-mackrill-SOexcR772MU-unsplash-1024x683.webp" alt="" class="img-fluid">
+          </div>
+        </div>
+      </div>
+
+      <!-- Pricing Table -->
+      <section class="container-fluid" id="pricing">
+        <h1 class="py-4 px-4" id="pricing-title">
+          Pricing Table
+        </h1>
+        <div class="row py-5 px-5 text-center">
+          <!-- Standard -->
+          <div class="col-lg-4 col-md-4 col-sm-12 text-start py-2" id="pricing-one">
+            <div class="p-3 mb-5">
+              <h1 class="py-3">$ 55.00 USD</h1>
+              <p>BILLED MONTHLY</p>
+            </div>
+            <div class="p-3">
+              <p class="py-1">PRICING PLAN</p>
+              <h2>Websites</h2>
+            </div>
+          </div>
+          <div class="d-flex flex-row col-lg-4 col-md-4 col-sm-12 py-2 text-start" id="pricing-two">
+            <div class="px-3 pt-5" id="pricing-li">
+              <li class="my-2">One Page Design</li>
+              <li class="my-2">Multi Page Design</li>
+              <li class="my-2">Corporate Design</li>
+              <li class="my-2">Email Design</li>
+              <li class="my-2">Website Analytics</li>
+            </div>
+            <div class="pt-5 ps-4" id="pricing-li">
+              <li class="my-2">Responsive Design</li>
+              <li class="my-2">Campaign Products</li>
+              <li class="my-2">Great Support</li>
+              <li class="my-2">User Friendly Design</li>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 text-start" id="pricing-three">
+            <div class="p-3">
+              <p class="pt-3">PRODUCT TYPE</p>
+              <h2 class="mb-5">Advanced</h2>
+              <div class="pt-5">
+                <button class="btn" id="btn-pricing">ADD TO CART</button>
+              </div>
+            </div>
+          </div>
+          <!-- Premium -->
+          <div class="col-lg-4 col-md-4 col-sm-12 text-start py-2" id="pricing-one" style="background-color: rgb(255, 208, 0);">
+            <div class="p-3 mb-5">
+              <h1 class="py-3">$ 55.00 USD</h1>
+              <p>BILLED MONTHLY</p>
+            </div>
+            <div class="p-3">
+              <p class="py-1">PRICING PLAN</p>
+              <h2>Websites</h2>
+            </div>
+          </div>
+          <div class="d-flex flex-row col-lg-4 col-md-4 col-sm-12 py-2 text-start" id="pricing-two" style="background-color: rgb(255, 208, 0);">
+            <div class="px-3 pt-5" id="pricing-li">
+              <li class="my-2">One Page Design</li>
+              <li class="my-2">Multi Page Design</li>
+              <li class="my-2">Corporate Design</li>
+              <li class="my-2">Email Design</li>
+              <li class="my-2">Website Analytics</li>
+            </div>
+            <div class="pt-5 ps-4" id="pricing-li">
+              <li class="my-2">Responsive Design</li>
+              <li class="my-2">Campaign Products</li>
+              <li class="my-2">Great Support</li>
+              <li class="my-2">User Friendly Design</li>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12 text-start py-2" id="pricing-three" style="background-color: rgb(255, 208, 0);">
+            <div class="p-3">
+              <p class="pt-3">PRODUCT TYPE</p>
+              <h2 class="mb-5">Advanced</h2>
+              <div class="pt-5">
+                <button class="btn" id="btn-pricing">ADD TO CART</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimony -->
+      <div class="container-fluid my-5" id="testimony">
+        <div class="row px-4 my-5">
+          <div class="col-lg-6 col-md-12 col-sm-12" id="left-testimony">
+            <div class="mt-5 pt-5">
+              <h1 class="pt-5 pb-4" id="testimony-title">
+                What They Say About Us
+              </h1>
+              <div class="row my-5 px-4 pb-5">
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                  <h1 id="customer" class="fw-bold">
+                    17K + <br> 
+                    <small class="fs-6">Happy Customers</small>
+                  </h1>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                  <h1 id="project" class="fw-bold">
+                    2M + <br>
+                    <small class="fs-6">Projects Designed</small>
+                  </h1>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12" id="right-testimony">
+            <div class="row px-4">
+              <div class="col-lg-6 col-md-12 col-sm-12 mt-3">
+                <div id="test-1" class="px-4 pt-3">
+                  <header class="d-flex flex-row">
+                    <img src="../asset/people/pexels-photo-842980-206x300.jpeg" alt="an image" id="img-people">
+                    <h3>Tony McCain <br>
+                      <small class="fs-6 text-secondary">Happy Patient</small>
+                    </h3>
+                  </header>
+                  <article class="p-3" style="border-bottom: 2px solid black;">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit quas consequatur aspernatur, eaque ratione recusandae.
+                  </article>
+                  <footer class="d-flex flex-row pt-3">
+                    <p class="fs-5">
+                      Rated <strong>4.5/5</strong>
+                    </p>
+                  </footer>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12 col-sm-12 mt-3">
+                <div id="test-1" class="px-4 pt-3">
+                  <header class="d-flex flex-row">
+                    <img src="../asset/people/photo-1552374196-c4e7ffc6e126.avif" alt="an image" id="img-people">
+                    <h3>Eduard Espino <br>
+                      <small class="fs-6 text-secondary">Happy Patient</small>
+                    </h3>
+                  </header>
+                  <article class="p-3" style="border-bottom: 2px solid black;">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit quas consequatur aspernatur, eaque ratione recusandae.
+                  </article>
+                  <footer class="d-flex flex-row pt-3">
+                    <p class="fs-5">
+                      Rated <strong>4.3/5</strong>
+                    </p>
+                  </footer>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12 col-sm-12 mt-3">
+                <div id="test-1" class="px-4 pt-3">
+                  <header class="d-flex flex-row">
+                    <img src="../asset/people/cc9082b6-2482-4fba-80d0-531a3e5c29c8.png" alt="an image" id="img-people">
+                    <h3>Marina Trojnar <br>
+                      <small class="fs-6 text-secondary">Happy Patient</small>
+                    </h3>
+                  </header>
+                  <article class="p-3" style="border-bottom: 2px solid black;">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit quas consequatur aspernatur, eaque ratione recusandae.
+                  </article>
+                  <footer class="d-flex flex-row pt-3">
+                    <p class="fs-5">
+                      Rated <strong>4.5/5</strong>
+                    </p>
+                  </footer>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12 col-sm-12 mt-3">
+                <div id="test-1" class="px-4 pt-3">
+                  <header class="d-flex flex-row">
+                    <img src="../asset/people/photo-1593529467220-9d721ceb9a78.avif" alt="an image" id="img-people">
+                    <h3>Cladiu Monroy <br>
+                      <small class="fs-6 text-secondary">Happy Patient</small>
+                    </h3>
+                  </header>
+                  <article class="p-3" style="border-bottom: 2px solid black;">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit quas consequatur aspernatur, eaque ratione recusandae.
+                  </article>
+                  <footer class="d-flex flex-row pt-3">
+                    <p class="fs-5">
+                      Rated <strong>4.5/5</strong>
+                    </p>
+                  </footer>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Message -->
+      <div class="container-fluid my-5" id="message">
+        <div class="py-3 px-4">
+          <h1 id="msg-title" class="py-2">Have a project in mind?</h1>
+          <h1 id="msg" class="py-2"><a href="#" class="text-dark nav-link">
+            Send Us A Message
+          </a></h1>
+        </div>
+      </div>
+
+      <!-- Companies -->
+      <section class="container-fluid my-4" style="background-color: rgb(255, 208, 0);">
+        <div class="row p-1">
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <div class="d-flex flex-row text-center" style="justify-content: space-around;padding: 20px;">
+              <img src="../asset/svg/621adb94e190fa4b3bffc4a3_Logo-1.png" alt="" width="100" height="80">
+              <img src="../asset/svg/621adb94e190fa7bd7ffc4b2_Logo-2.png" alt="" width="100" height="80">
+              <img src="../asset/svg/621adb94e190fa25bfffc4ac_Logo-3.png" alt="" width="100" height="80">
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <div class="d-flex flex-row text-center" style="justify-content: space-around;padding: 20px;">
+              <img src="../asset/svg/621adb94e190fa1bddffc4a6_Logo-5]6.png" alt="" width="100" height="80">
+              <img src="../asset/svg/621adb94e190fa44c3ffc4a9_Logo-5.png" alt="" width="100" height="80">
+              <img src="../asset/svg/621adb94e190fa37e5ffc4af_Logo-4.png" alt="" width="100" height="80">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="container-fluid">
+        <div class="mt-5 row px-4 pt-5 mb-5" style="border-bottom: 2px solid black;">
+          <div class="col-lg-6 col-md-12 col-sm-12">
+            <div class="p-3">
+              <img src="../asset/img/622d33e4e92a9cf5d5107592_Logo-p-500.png" alt="" width="300" height="120">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6" id="footer-right1">
+            <div class="p-3">
+              <h3 class="py-2">Navigation</h3>
+              <li class="nav-item list-unstyled">
+                <a href="#" class="nav-link text-dark" id="foot-link">Home</a>
+              </li>
+              <li class="nav-item list-unstyled">
+                <a href="#" class="nav-link text-dark" id="foot-link">About</a>
+              </li>
+              <li class="nav-item list-unstyled">
+                <a href="#" class="nav-link text-dark" id="foot-link">Works</a>
+              </li>
+              <li class="nav-item list-unstyled">
+                <a href="#" class="nav-link text-dark" id="foot-link">Plans</a>
+              </li>
+              <li class="nav-item list-unstyled">
+                <a href="#" class="nav-link text-dark" id="foot-link">News</a>
+              </li>
+              <li class="nav-item list-unstyled mb-3">
+                <a href="#" class="nav-link text-dark" id="foot-link">Contact</a>
+              </li>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6" id="footer-right2">
+            <div class="p-3">
+              <h3 class="py-2">Social</h3>
+              <li class="nav-item list-unstyled">
+                <a href="#" class="nav-link text-dark" id="foot-link">Instagram</a>
+              </li>
+              <li class="nav-item list-unstyled">
+                <a href="#" class="nav-link text-dark" id="foot-link">Twitter</a>
+              </li>
+              <li class="nav-item list-unstyled">
+                <a href="#" class="nav-link text-dark" id="foot-link">Facebook</a>
+              </li>
+              <li class="nav-item list-unstyled">
+                <a href="#" class="nav-link text-dark" id="foot-link">Youtube</a>
+              </li>
+            </div>
+          </div>
+        </div>
+      </footer>
+      
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <!-- JavaScript file link -->
+    <script src="app.js"></script>
+</body>
+</html>
